@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 1000px;
+
+}
+
+
+.nav-menu{
+    background-color: #011124;
+    color: #e0e0e0; 
+    padding: 20px 0;
+}
+
+.nav-menu-ul {
+    display: flex;
+    list-style-type: None; 
+    
+}
+.nav-menu li{ 
+    padding: .5em 1em; 
+    
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+}
+
+
+.MainImage{
+    max-width: 40%;
+    height: auto;
+
+}
+
+
+
+.MainText{
+    max-width: 60%;
+
+    display: flex;
+    justify-content: left;
+    
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 10px;
+
+    
+    text-align: left; /* Keeps text aligned to the left */
+    hyphens: none; /* Prevents automatic word hyphenation */
+    word-break: keep-all; /* Prevents words from breaking onto a new line */
+    overflow-wrap: break-word; /* Ensures long words wrap properly */
+    white-space: normal;
+
+}
+
+.MainTextTop{
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+.MainTextBottom{
+    display: flex;
+    
+}
+
+button {
+    background-color: #011124; 
+    color: #e0e0e0; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a{
+    color: white;
+  
+}
