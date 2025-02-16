@@ -85,17 +85,20 @@ body {
     
 }
 
-button {
-    background-color: #011124; 
-    color: #e0e0e0; 
-    padding: 10px 20px; 
-    font-size: 16px; 
-    border: none; 
-    border-radius: 5px; 
-    cursor: pointer; 
-    transition: background-color 0.3s ease;
-    margin-right: 10px;
+
+.social-button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    background-color: #0077b5;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
 }
+
 
 footer {
     position: fixed;
