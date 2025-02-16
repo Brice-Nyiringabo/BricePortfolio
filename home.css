@@ -80,15 +80,11 @@ body {
 .MainTextTop{
     font-family: 'Arial Narrow Bold', sans-serif;
 }
-.MainTextBottom{
-    display: flex;
-    
-}
+
 
 
 .social-links {
-    display: flex
-;
+    display: flex;
     justify-content: center;
     gap: 15px;
     margin-top: 10px;
